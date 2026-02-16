@@ -49,7 +49,7 @@ export default defineNuxtConfig({
       }
     },
     public: {
-      appUrl: "http://localhost:3000"
+      appUrl: process.env.NUXT_PUBLIC_APP_URL || "https://spendwise-dh4.pages.dev"
     },
   },
 

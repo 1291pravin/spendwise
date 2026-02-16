@@ -1,4 +1,3 @@
-[pages]
 name = "spendwise"
 compatibility_date = "2025-02-16"
 compatibility_flags = ["nodejs_compat"]
@@ -11,6 +10,3 @@ database_id = "33021bd0-9014-4a2b-b490-4898bd075d62"
 [[kv_namespaces]]
 binding = "CACHE"
 id = "2e5b2b3d603346dfab9979436363be9e"
-
-[env.production]
-name = "spendwise"
