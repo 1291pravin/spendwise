@@ -4,6 +4,19 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-02-16",
   devtools: { enabled: true },
 
+  nitro: {
+    preset: "cloudflare-pages",
+    cloudflare: {
+      pages: {
+        routes: {
+          exclude: ["/assets/*"],
+        },
+      },
+    },
+    compatibilityDate: "2025-02-16",
+    compatibilityFlags: ["nodejs_compat"],
+  },
+
   modules: [
     "@nuxthub/core",
     "nuxt-auth-utils",
