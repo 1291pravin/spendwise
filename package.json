@@ -1,0 +1,32 @@
+{
+  "name": "expense-tracker-saas",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "db:generate": "nuxt db generate",
+    "db:migrate": "nuxt db migrate",
+    "db:studio": "nuxt db studio"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.17.0",
+    "@nuxthub/core": "^0.10.5",
+    "@pinia/nuxt": "^0.9.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "drizzle-orm": "^0.45.1",
+    "nuxt": "^4.3.0",
+    "nuxt-auth-utils": "^0.5.28",
+    "pinia": "^2.3.0",
+    "tailwindcss": "^4.1.18",
+    "vue": "^3.5.27",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.8",
+    "typescript": "^5.7.2"
+  }
+}
